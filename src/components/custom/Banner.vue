@@ -36,7 +36,7 @@ import banna from '@/assets/pics/banner-2.jpg';
       <!-- Image Section -->
       <div class="w-1/2 flex gap-6">
         <!-- <img :src="banna" alt="Banner-image-2" class="w-5/6 h-auto object-cover rounded-sm shadow-lg" /> -->
-        <img :src="banner" alt="Banner-image" class="w-5/6 h-[28rem] object-cover rounded-sm shadow-lg" />
+        <img :src="banner" alt="Banner-image" class="w-5/6 h-[28rem] object-cover rounded-sm" />
         
       </div>
     </div>
