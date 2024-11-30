@@ -1,9 +1,9 @@
 <script setup>
-
+import Navbar from '@/components/custom/Navbar.vue';
 </script>
 
 <template>
   <main>
-    <h2 class="text-blue-800 font-bold text-4xl">Home</h2>
+    <Navbar />
   </main>
 </template>

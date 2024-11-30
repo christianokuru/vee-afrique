@@ -1,11 +1,13 @@
 <script setup>
-
+import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
- <h1 class="text-pink-600">App pagess</h1>
+ <div>
+  <home-view />
+ </div>
 
-  <RouterView />
+ <!-- <RouterView /> -->
 </template>
 
 

@@ -22,6 +22,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        dancing:['Dancing Script', 'poppins'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
