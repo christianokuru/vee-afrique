@@ -37,8 +37,8 @@ const setActiveLink = (routeName) => {
 </script>
 
 <template>
-  <header class="pt-4 pb-2 px-4 border-b shadow-md md:px-14 md:mx-auto">
-    <nav class="flex items-center justify-between">
+  <header class="pt-4 pb-2 px-4 border-b shadow-md md:px-14 md:mx-auto sticky top-0 backdrop-blur-md">
+    <nav class="flex items-center justify-between ">
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <img :src="logo" alt="Vee-afrique-logo" class="w-16 h-16" />
