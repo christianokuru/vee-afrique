@@ -7,11 +7,17 @@ import { addIcons, OhVueIcon } from 'oh-vue-icons'
 // import all your icons
 import {
     CoHamburgerMenu,
+    LaShippingFastSolid,
+    MdSupportagent,
+    GiTakeMyMoney,
 } from 'oh-vue-icons/icons'
 
 // add icons to library
 addIcons(
     CoHamburgerMenu,
+    LaShippingFastSolid,
+    MdSupportagent,
+    GiTakeMyMoney,
 );
 
 
