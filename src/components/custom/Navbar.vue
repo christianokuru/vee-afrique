@@ -37,8 +37,10 @@ const setActiveLink = (routeName) => {
 </script>
 
 <template>
-  <header class="pt-4 pb-2 px-4 border-b shadow-md md:px-14 md:mx-auto sticky top-0 backdrop-blur-md">
-    <nav class="flex items-center justify-between ">
+  <header
+    class="sticky top-0 z-50 bg-white/70 backdrop-blur-3xl py-3 px-4 border-b shadow-md md:px-14"
+  >
+    <nav class="flex items-center justify-between">
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <img :src="logo" alt="Vee-afrique-logo" class="w-16 h-16" />
@@ -55,7 +57,7 @@ const setActiveLink = (routeName) => {
           v-for="navLink in navLinks"
           :key="navLink.name"
           @click="setActiveLink(navLink.name)"
-          class="hover:text-yellow-600"
+          class="nav-link font-semibold"
           :class="{ active: activeLink === navLink.name }"
         >
           <router-link :to="navLink.path">{{ navLink.name }}</router-link>
@@ -94,13 +96,14 @@ const setActiveLink = (routeName) => {
 </template>
 
 <style scoped>
+/* Styles for Navigation Links */
 .nav-link {
-  transition: all 0.3s;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .nav-link.active {
-  color: #ffcc00; /* Highlight color */
+  color: #facc15; /* Highlight color for active links */
   font-weight: bold;
 }
 
