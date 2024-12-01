@@ -2,6 +2,7 @@
 import Navbar from '@/components/custom/Navbar.vue';
 import Banner from '@/components/custom/Banner.vue';
 import FreeShipping from '@/components/custom/FreeShipping.vue';
+import StoreHeader from '@/components/custom/StoreHeader.vue';
 import { ref, onMounted } from 'vue';
 
 // Track page loading state for the animation
@@ -22,6 +23,7 @@ onMounted(() => {
         <Navbar />
         <Banner />
         <FreeShipping />
+        <StoreHeader />
       </div>
     </Transition>
   </main>
